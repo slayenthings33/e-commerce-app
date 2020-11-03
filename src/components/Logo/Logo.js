@@ -2,23 +2,19 @@ import React, { Component } from 'react';
 import './Logo.css';
 
 class Logo extends Component {
-  // constructor(props){
-    // super(props);
-    // this.state = {};
-  // }
+  constructor(props){
+    super(props);
+    this.state = {
+      logo: this.props.logo,
+    };
+  }
 
-  // componentWillMount(){}
-  // componentDidMount(){}
-  // componentWillUnmount(){}
-
-  // componentWillReceiveProps(){}
-  // shouldComponentUpdate(){}
-  // componentWillUpdate(){}
-  // componentDidUpdate(){}
 
   render() {
     return (
-      <div></div>
+      <div>
+        <img id="logo" src={this.state.logo} alt=""/>
+      </div>
     );
   }
 }

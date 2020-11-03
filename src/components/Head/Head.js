@@ -8,15 +8,14 @@ class Head extends Component {
   constructor(props){
     super(props);
     this.state = {
-      logo: '/images/logo.jpg',
-      
+      logo: '/images/logo.png',
     };
   }
 
   render() {
     return (
-      <div>
-        <Logo/>
+      <div id="headContainer">
+        <Logo logo={this.state.logo}/>
         <NavBar/>
         <SearchBar/>
       </div>

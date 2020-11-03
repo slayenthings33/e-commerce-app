@@ -1,0 +1,224 @@
+[{
+    "name": "Apple- Malus Ingrid Marie",
+    "category": "tree",
+    "price": 99,
+    "image": "images/appleMalusIngridMarie.jpg",
+    "producer": {
+        "name": "applewood farms",
+        "address": "4183 Oakmound Road, Bryceville Florida, 32009",
+        "cif": "F-97582951"
+    }
+},
+{
+    "name": "bald cypress",
+    "category": "tree",
+    "price": 129,
+    "image": "images/baldCypress.jpg",
+    "producer": {
+        "name": "huckleberry orchard",
+        "address": "2737 Irish Lane, Fremont Misouri, 63941",
+        "cif": "P-83715390"
+    }
+},
+{
+    "name": "blackberries- black satin",
+    "category": "fruit",
+    "price": 20,
+    "image": "images/blackSatinBlackberries.jpg",
+    "producer": {
+        "name": "rosewater valley",
+        "address": "2941 Sardis Station, Montcalm west virginia, 24737",
+        "cif": "F-90327138"
+    }
+},
+{
+    "name": "blueberries",
+    "category": "fruit",
+    "price": 20,
+    "image": "images/blueberries.jpg",
+    "producer": {
+        "name": "Diamond Cape",
+        "address": "4174  Diamond Cove, Carolina Rhode Island, 02812",
+        "cif": "D-14209876"
+    }
+},
+{
+    "name": "bur oak tree",
+    "category": "tree",
+    "price": 99,
+    "image": "images/burOakTree.jpg",
+    "producer": {
+        "name": "Oak Gardens",
+        "address": "2932 Pin Oak Drive",
+        "cif": "Y-98400182"
+    }
+},
+{
+    "name": "fig- celestial",
+    "category": "fruit",
+    "price": 20,
+    "image": "images/celestialFig.jpg",
+    "producer": {
+        "name": "Brillameers Palace",
+        "address": "3979 Crescent Street, Rhode Island New York, 82099",
+        "cif": "A-96712354"
+    }
+},
+{
+    "name": "crimson queen japanese maple",
+    "category": "tree",
+    "price": 199,
+    "image": "images/crimsonQueenJapaneseMaple.jpg",
+    "producer": {
+        "name": "deer park and reserve",
+        "address": "1799 McKinley Avenue, Raley North Carloina, 82917",
+        "cif": "P-00185622"
+    }
+},
+{
+    "name": "forest pansy",
+    "category": "tree",
+    "price": 149,
+    "image": "images/forestPansyTree.jpg",
+    "producer": {
+        "name": "boars alley",
+        "address": "3264  Richards Avenue, Thornton California, 67382",
+        "cif": ""
+    }
+},
+{
+    "name": "lemon tree - mini",
+    "category": "fruit",
+    "price": 49,
+    "image": "images/miniLemontree.jpg",
+    "producer": {
+        "name": "Evergreen Hills",
+        "address": "2256 Spirit Drive, Port Orange Florida, 29109",
+        "cif": "Y-87601121"
+    }
+},
+{
+    "name": "eastern cottonwood",
+    "category": "tree",
+    "price": 179,
+    "image": "images/easternCottonWooed.jpg",
+    "producer": {
+        "name": "eastwood cove",
+        "address": "4275  Paradise Lane, lady lake Florida, 82912",
+        "cif": "U-32124989"
+    }
+},
+{
+    "name": "plum- standard",
+    "category": "fruit",
+    "price": 179,
+    "image": "images/standarPlum.jpg",
+    "producer": {
+        "name": "Timeridge Farms",
+        "address": "2530  Andell Road, berwind west virginia, 248914",
+        "cif": "P-56773419"
+    }
+},
+{
+    "name": "wild pear",
+    "category": "fruit",
+    "price": 89,
+    "image": "images/wildPear.webp",
+    "producer": {
+        "name": "Stoneridge Valleys",
+        "address": "393 Mafield Way",
+        "cif": "P-45639092"
+    }
+},
+{
+    "name": "newport flowering plum",
+    "category": "fruit",
+    "price": 189,
+    "image": "images/newportFloweringPlum.jpg",
+    "producer": {
+        "name": "Plumridge Farms",
+        "address": "Newcastle Alley, Charleston North Carolina, 38295",
+        "cif": "R-79809812"
+    }
+},
+{
+    "name": "red mullberry bush",
+    "category": "fruit",
+    "price": 39,
+    "image": "images/redMullberryBush.webp",
+    "producer": {
+        "name": "Bristlethorn Farms",
+        "address": "3484 Sunburst Drive, Saint Helens Oregon, 97051",
+        "cif": "U-96723723"
+    }
+},
+{
+    "name": "northern kale",
+    "category": "vegetable",
+    "price": 29,
+    "image": "images/kale.jpg",
+    "producer": {
+        "name": "Greenfield Valley",
+        "address": "4646 Hickory Street, American Fork Utah, 89671",
+        "cif": "G-78546195"
+    }
+},
+{
+    "name": "white onion",
+    "category": "vegetable",
+    "price": 29,
+    "image": "images/onion.jpg",
+    "producer": {
+        "name": "Pasture of None",
+        "address": "",
+        "cif": ""
+    }
+},
+{
+    "name": "Traditional Eggplant",
+    "category": "vegetable",
+    "price": 29,
+    "image": "images/eggplant.jpg",
+    "producer": {
+        "name": "Eastview Springs",
+        "address": "2366 Burnside Avenue, Heber City Utah, 27407",
+        "cif": "L-90371654"
+    }
+},
+{
+    "name": "fragrant tea olive",
+    "category": "tree",
+    "price": 199,
+    "image": "images/fregrantTeaOlive.jpg",
+    "producer": {
+        "name": "Treevalley Farms",
+        "address": "2806 white orachard springs, Clover Kansas, 28962",
+        "cif": "O-78652953"
+    }
+},
+{
+    "name": "cabbage",
+    "category": "vegetable",
+    "price": 29,
+    "image": "images/cabbage.jpg",
+    "producer": {
+        "name": "Pepperidge Farms",
+        "address": "2994 Emeral Dreams Drive, Seward Illinois, 29016",
+        "cif": "H-89327840"
+    }
+},
+{
+    "name": "golden weeping willow",
+    "category": "tree",
+    "price": 399,
+    "image": "images/goldenWeepingWillow.jpg",
+    "producer": {
+        "name": "Tuckerville Springs",
+        "address": "7836 Ridgeview road, Branson Nebraska, 28912",
+        "cif": "G-79122776"
+    }
+}
+]
+
+
+    

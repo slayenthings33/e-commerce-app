@@ -2,23 +2,20 @@ import React, { Component } from 'react';
 import './NavBar.css';
 
 class NavBar extends Component {
-  // constructor(props){
-    // super(props);
-    // this.state = {};
-  // }
+  constructor(props){
+    super(props);
+    this.state = {
 
-  // componentWillMount(){}
-  // componentDidMount(){}
-  // componentWillUnmount(){}
-
-  // componentWillReceiveProps(){}
-  // shouldComponentUpdate(){}
-  // componentWillUpdate(){}
-  // componentDidUpdate(){}
+    };
+  }
 
   render() {
     return (
-      <div></div>
+      <div id="navBarContainer">
+        <span id="shopNav"> shop </span> 
+        <span id="aboutNav"> about </span>
+        <span id="contactNav"> contact </span>
+      </div>
     );
   }
 }

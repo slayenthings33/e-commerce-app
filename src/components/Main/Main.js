@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './Main.css';
+import NavBarMain from '../NavBarMain/NavBarMain'
+import Articles from '../Articles/Articles'
+import TogglePage from '../TogglePage/TogglePage'
 
 class Main extends Component {
   // constructor(props){
@@ -7,18 +10,13 @@ class Main extends Component {
     // this.state = {};
   // }
 
-  // componentWillMount(){}
-  // componentDidMount(){}
-  // componentWillUnmount(){}
-
-  // componentWillReceiveProps(){}
-  // shouldComponentUpdate(){}
-  // componentWillUpdate(){}
-  // componentDidUpdate(){}
-
   render() {
     return (
-      <div></div>
+      <div>
+        <NavBarMain/>
+        <Articles/>
+        <TogglePage/>
+      </div>
     );
   }
 }
