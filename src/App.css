@@ -101,3 +101,21 @@
   text-transform: uppercase;
   margin: 0px 10px 0px 10px;
 }
+#articleContainer {
+  display: flex; 
+  flex-direction: column;
+  border: magenta dotted 1px;
+
+}
+#togglePageContainer {
+  display: inline;
+  width: 8%;
+  height: 10%;
+  /* border: red dotted 1px; */
+}
+
+.togglePageBtn {
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}

@@ -7,18 +7,13 @@ class TogglePage extends Component {
     // this.state = {};
   // }
 
-  // componentWillMount(){}
-  // componentDidMount(){}
-  // componentWillUnmount(){}
-
-  // componentWillReceiveProps(){}
-  // shouldComponentUpdate(){}
-  // componentWillUpdate(){}
-  // componentDidUpdate(){}
-
   render() {
     return (
-      <div></div>
+      <div id="togglePageContainer">
+        <button className="togglePageBtn">1</button>
+        <button className="togglePageBtn">2</button>
+        <button className="togglePageBtn">3</button>
+      </div>
     );
   }
 }

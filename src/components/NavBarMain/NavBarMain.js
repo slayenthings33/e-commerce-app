@@ -9,7 +9,6 @@ class NavBarMain extends Component {
 
   
   render() {
-    console.log(fetch("http://www.quantitative-plant.org/api?type=TYPE&field=FIELD&q=Q"))
     return (
       <div id="navBarMainContainer">
         <div id="categoryBtnsContainer">
