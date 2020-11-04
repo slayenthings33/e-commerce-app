@@ -5,7 +5,7 @@ import Foot from '../src/components/Foot/Foot';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
       <Head/>
       <Main/>
       <Foot/>

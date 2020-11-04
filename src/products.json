@@ -1,7 +1,7 @@
 [{
     "name": "Apple- Malus Ingrid Marie",
     "category": "tree",
-    "price": 99,
+    "price": "99.00",
     "image": "images/appleMalusIngridMarie.jpg",
     "producer": {
         "name": "applewood farms",
@@ -12,7 +12,7 @@
 {
     "name": "bald cypress",
     "category": "tree",
-    "price": 129,
+    "price": "129.00",
     "image": "images/baldCypress.jpg",
     "producer": {
         "name": "huckleberry orchard",
@@ -23,7 +23,7 @@
 {
     "name": "blackberries- black satin",
     "category": "fruit",
-    "price": 20,
+    "price": "20.00",
     "image": "images/blackSatinBlackberries.jpg",
     "producer": {
         "name": "rosewater valley",
@@ -34,7 +34,7 @@
 {
     "name": "blueberries",
     "category": "fruit",
-    "price": 20,
+    "price": "20.00",
     "image": "images/blueberries.jpg",
     "producer": {
         "name": "Diamond Cape",
@@ -45,7 +45,7 @@
 {
     "name": "bur oak tree",
     "category": "tree",
-    "price": 99,
+    "price": "99.00",
     "image": "images/burOakTree.jpg",
     "producer": {
         "name": "Oak Gardens",
@@ -56,7 +56,7 @@
 {
     "name": "fig- celestial",
     "category": "fruit",
-    "price": 20,
+    "price": "20.00",
     "image": "images/celestialFig.jpg",
     "producer": {
         "name": "Brillameers Palace",
@@ -67,7 +67,7 @@
 {
     "name": "crimson queen japanese maple",
     "category": "tree",
-    "price": 199,
+    "price": "199.00",
     "image": "images/crimsonQueenJapaneseMaple.jpg",
     "producer": {
         "name": "deer park and reserve",
@@ -78,7 +78,7 @@
 {
     "name": "forest pansy",
     "category": "tree",
-    "price": 149,
+    "price": "149.00",
     "image": "images/forestPansyTree.jpg",
     "producer": {
         "name": "boars alley",
@@ -89,7 +89,7 @@
 {
     "name": "lemon tree - mini",
     "category": "fruit",
-    "price": 49,
+    "price": "49.00",
     "image": "images/miniLemontree.jpg",
     "producer": {
         "name": "Evergreen Hills",
@@ -100,8 +100,8 @@
 {
     "name": "eastern cottonwood",
     "category": "tree",
-    "price": 179,
-    "image": "images/easternCottonWooed.jpg",
+    "price": "179.00",
+    "image": "images/easternCottonWood.jpg",
     "producer": {
         "name": "eastwood cove",
         "address": "4275  Paradise Lane, lady lake Florida, 82912",
@@ -111,7 +111,7 @@
 {
     "name": "plum- standard",
     "category": "fruit",
-    "price": 179,
+    "price": "179.00",
     "image": "images/standarPlum.jpg",
     "producer": {
         "name": "Timeridge Farms",
@@ -122,7 +122,7 @@
 {
     "name": "wild pear",
     "category": "fruit",
-    "price": 89,
+    "price": "89.00",
     "image": "images/wildPear.webp",
     "producer": {
         "name": "Stoneridge Valleys",
@@ -133,7 +133,7 @@
 {
     "name": "newport flowering plum",
     "category": "fruit",
-    "price": 189,
+    "price": "189.00",
     "image": "images/newportFloweringPlum.jpg",
     "producer": {
         "name": "Plumridge Farms",
@@ -144,7 +144,7 @@
 {
     "name": "red mullberry bush",
     "category": "fruit",
-    "price": 39,
+    "price": "39.00",
     "image": "images/redMullberryBush.webp",
     "producer": {
         "name": "Bristlethorn Farms",
@@ -155,7 +155,7 @@
 {
     "name": "northern kale",
     "category": "vegetable",
-    "price": 29,
+    "price": "29.00",
     "image": "images/kale.jpg",
     "producer": {
         "name": "Greenfield Valley",
@@ -166,7 +166,7 @@
 {
     "name": "white onion",
     "category": "vegetable",
-    "price": 29,
+    "price": "29.00",
     "image": "images/onion.jpg",
     "producer": {
         "name": "Pasture of None",
@@ -177,7 +177,7 @@
 {
     "name": "Traditional Eggplant",
     "category": "vegetable",
-    "price": 29,
+    "price": "29.00",
     "image": "images/eggplant.jpg",
     "producer": {
         "name": "Eastview Springs",
@@ -188,7 +188,7 @@
 {
     "name": "fragrant tea olive",
     "category": "tree",
-    "price": 199,
+    "price": "199.00",
     "image": "images/fregrantTeaOlive.jpg",
     "producer": {
         "name": "Treevalley Farms",
@@ -199,7 +199,7 @@
 {
     "name": "cabbage",
     "category": "vegetable",
-    "price": 29,
+    "price": "29.00",
     "image": "images/cabbage.jpg",
     "producer": {
         "name": "Pepperidge Farms",
@@ -210,7 +210,7 @@
 {
     "name": "golden weeping willow",
     "category": "tree",
-    "price": 399,
+    "price": "399.00",
     "image": "images/goldenWeepingWillow.jpg",
     "producer": {
         "name": "Tuckerville Springs",

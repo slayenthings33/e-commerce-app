@@ -7,18 +7,18 @@ class NavCategories extends Component {
     // this.state = {};
   // }
 
-  // componentWillMount(){}
-  // componentDidMount(){}
-  // componentWillUnmount(){}
-
-  // componentWillReceiveProps(){}
-  // shouldComponentUpdate(){}
-  // componentWillUpdate(){}
-  // componentDidUpdate(){}
 
   render() {
     return (
-      <div></div>
+      <div>
+        <div class="navCategoriesContainer">
+          <span class="navCategoriesBtns"> all </span>
+          <span class="navCategoriesBtns"> fruits </span>
+          <span class="navCategoriesBtns"> vegetables </span>
+          <span class="navCategoriesBtns"> trees </span>
+          <span class="navCategoriesBtns"> other </span>
+        </div>  
+      </div>
     );
   }
 }

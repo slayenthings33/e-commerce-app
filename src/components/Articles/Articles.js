@@ -1,87 +1,81 @@
-import React, { Component, createFactory } from 'react';
+import React, { Component } from 'react';
 import './Articles.css';
-import Products from '../../products.json'
+import Article from '../Article/Article';
+import products from '../../products.json'
+import SortBy from '../SortBy/SortBy';
 
 
 class Articles extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
-     Products: Products,
-
+      products: products,
+      index: this.props.index,
+      sortChoice: "A-Z",
     };
+    this.setSortChoice = this.setSortChoice.bind(this);
+    this.sortProducts = this.sortProducts.bind(this);
+    this.sortAlphabetically = this.sortAlphabetically.bind(this);
+    this.sortByPrice = this.sortByPrice.bind(this);
+    this.sortByCIF = this.sortByCIF.bind(this);
   }
-  
 
-  
-  
-  
-  // <div id="article">
-  //         <img src= ${Products[i].image} alt="" id="articleImage"/>
-  //         <div id="articleNameRow">
-  //           <span class="articleLabel">Name : </span><span id="articleName">${Products.name}</span>
-  //         </div>
-  //         <div id="articleCategoryRow">
-  //           <span class="articleLabel">Category : </span><span id="articleCategory">${Products[i].category}</span>
-  //         </div>
-  //         <div id="articlePriceRow">
-    //           <span className="articleLabel">Price : </span>
-    //           <span id="articlePrice">${Products[i].price}</span>
-    //         </div>
-    //       </div>
-    
-    render() {
-      // console.log(this.state.Products)
-      function displayArticles() {
-        // for(let i=0; i<this.state.Products.length; i++) {
-        //   let article = `
-        //   <div id="article">
-        //   <img src= ${this.state.Products[i].image} alt="" id="articleImage"/>
-        //   <div id="articleNameRow">
-        //   <span class="articleLabel">Name : </span><span id="articleName">${this.state.Products[i].name}</span>
-        //   </div>
-        //   <div id="articleCategoryRow">
-        //   <span class="articleLabel">Category : </span><span id="articleCategory">${this.state.Products[i].category}</span>
-        //   </div>
-        //   <div id="articlePriceRow">
-        //   <span className="articleLabel">Price : </span>
-        //   <span id="articlePrice">${this.state.Products[i].price}</span>
-        //   </div>
-        //   </div>
-        //   `
-        //   console.log(document.getElementById("articleContainer"))
 
-        //   // document.getElementById("articleContainer") += article;
-        //   return {__html: 'article'}
-        // }
-      }
+  setSortChoice(childData) {
+    console.log(childData)
+    this.setState({ sortChoice: childData });
+    this.sortProducts(childData);
+  }
 
-      function setArticleComponent() {
-        return <div dangerouslySetInnerHTML = {displayArticles()}/>;
-      }
-      
-      setArticleComponent();
-          return (
-        <div id="articleContainer">
-          <div id="article">
-            <img src= {this.state.Products[4].image} alt="" id="articleImage"/>
-            <div id="articleNameRow">
-              <span class="articleLabel">Name : </span><span id="articleName">{this.state.Products[4].name}</span>
-            </div>
-              <div id="articleCategoryRow">
-              <span class="articleLabel">Category : </span><span id="articleCategory">{this.state.Products[4].category}</span>
-            </div>
-            <div id="articlePriceRow">
-              <span className="articleLabel">Price : </span>
-              <span id="articlePrice">{this.state.Products[4].price}</span>
-            </div>
-          </div>
+  sortProducts(childData) {
+    if (childData === "A-Z") {
+      this.sortAlphabetically();
+    } else if (childData === "Price") {
+      this.sortByPrice();
+    } else if (childData === "CIF") {
+      this.sortByCIF();
+    }
+  }
+
+  sortAlphabetically() {
+
+  }
+
+  sortByPrice() {
+    let products = this.state.products.sort((a, b) => {
+      return parseInt(a.price) - parseInt(b.price)
+    });
+    console.log(products);
+    this.setState({products: products});
+  }
+
+  sortByCIF() {
+
+  }
+
+
+  render() {
+    return (
+      <div>
+        <SortBy sortArticlesCallback={this.setSortChoice} />
+        <div id="mainArticleContainer">
+          <Article products={this.state.products} index={1} />
+          <Article products={this.state.products} index={2} />
+          <Article products={this.state.products} index={3} />
+          <Article products={this.state.products} index={4} />
+          <Article products={this.state.products} index={5} />
+          <Article products={this.state.products} index={6} />
+          <Article products={this.state.products} index={7} />
+          <Article products={this.state.products} index={8} />
+          <Article products={this.state.products} index={9} />
         </div>
-            );
-          }
-        }  
-        
-        export default Articles;
+      </div>
+    );
+  }
+}
+
+
+export default Articles;
         // <img src={this.state.Products[8].image} alt=""/>
-        
+
         // <span><b>Name : </b></span><span> {this.state.Products[8].name}</span>
