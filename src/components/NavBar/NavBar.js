@@ -12,9 +12,9 @@ class NavBar extends Component {
   render() {
     return (
       <div id="navBarContainer">
-        <span id="shopNav"> shop </span> 
-        <span id="aboutNav"> about </span>
-        <span id="contactNav"> contact </span>
+        <span className="navBarBtns"> shop </span> 
+        <span className="navBarBtns"> about </span>
+        <span className="navBarBtns"> contact </span>
       </div>
     );
   }

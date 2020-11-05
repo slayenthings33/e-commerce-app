@@ -35,6 +35,9 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  background-image: linear-gradient(to top, #1762d4, #0087ec, #00a0cb, #00b07e, #16b808);
+}
 
 /*************************/
 /*********IMAGES**********/
@@ -45,8 +48,11 @@
 }
 #logo {
   position: relative;
-  /* border: red dotted 1px; */
+  top: 20px;
+  border: black solid 2px;
+  border-radius: 20px;
   width: 60%; 
+  box-shadow: grey 3px 3px 3px;
 }
 #cart {
   width: 25%;
@@ -105,6 +111,9 @@
   display: flex;
   justify-content: center;
 }
+.navCategoriesContainer {
+  margin: 10px 10px 50px 10px;
+}
 
 #navBarMainContainer span {
   text-transform: uppercase;
@@ -136,8 +145,8 @@
   /* border: turquoise dotted 3px; */
   justify-content: center;
   height: 350px;
-  
   height: 100%;
+  /* background-image: linear-gradient(to top, #1762d4, #0087ec, #00a0cb, #00b07e, #16b808); */
 
 }
 #articleContainer {
@@ -170,15 +179,22 @@
 }
 
 
-#shopNav, #aboutNav, #contactNav {
+.navBarBtns {
   margin: 0px 10px 0px 10px;
   text-transform: uppercase;
+}
+.navBarBtns:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .navCategoriesBtns {
   text-transform: uppercase;
   margin: 10px;
-
+}
+.navCategoriesBtns:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 #article span{
   /* color: red; */
@@ -188,4 +204,12 @@
   margin: 10px;
   padding: 5px 10px;
   border-radius: 10px;
+}
+
+/******************************/
+/********OTHER STYLING*********/
+/******************************/
+#searchBarInput {
+  border-radius: 10px;
+  height: 25px;
 }
