@@ -22,7 +22,7 @@ class Main extends Component {
       <div>
         <NavBarMain />
           <Articles />
-        <TogglePage />
+        {/* <TogglePage /> */}
       </div>
     );
   }

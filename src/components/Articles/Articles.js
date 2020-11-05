@@ -38,9 +38,9 @@ class Articles extends Component {
   }
 
   sortAlphabetically() {
-
+    
   }
-
+  
   sortByPrice() {
     let products = this.state.products.sort((a, b) => {
       return parseInt(a.price) - parseInt(b.price)
@@ -59,15 +59,21 @@ class Articles extends Component {
       <div>
         <SortBy sortArticlesCallback={this.setSortChoice} />
         <div id="mainArticleContainer">
-          <Article products={this.state.products} index={1} />
-          <Article products={this.state.products} index={2} />
-          <Article products={this.state.products} index={3} />
-          <Article products={this.state.products} index={4} />
-          <Article products={this.state.products} index={5} />
-          <Article products={this.state.products} index={6} />
-          <Article products={this.state.products} index={7} />
-          <Article products={this.state.products} index={8} />
-          <Article products={this.state.products} index={9} />
+          <div className="articleRow">
+            <Article products={this.state.products} index={1} />
+            <Article products={this.state.products} index={2} />
+            <Article products={this.state.products} index={3} />
+          </div>
+          <div className="articleRow">
+            <Article products={this.state.products} index={4} />
+            <Article products={this.state.products} index={5} />
+            <Article products={this.state.products} index={6} />
+          </div>
+          <div className="articleRow">
+            <Article products={this.state.products} index={7} />
+            <Article products={this.state.products} index={8} />
+            <Article products={this.state.products} index={9} />
+          </div>
         </div>
       </div>
     );
